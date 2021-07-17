@@ -8,7 +8,6 @@ from charm.toolbox.pairinggroup import PairingGroup,pair
 from charm.core.engine.util import bytesToObject
 from base64 import b64decode
 from Crypto.Cipher import AES
-from Crypto.Util.Padding import unpad
 from datetime import datetime
 
 class Dec():
